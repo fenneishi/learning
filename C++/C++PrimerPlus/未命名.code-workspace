@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp",
+			"__locale": "cpp",
+			"__nullptr": "cpp",
+			"bitset": "cpp",
+			"ios": "cpp",
+			"istream": "cpp",
+			"iterator": "cpp",
+			"locale": "cpp",
+			"memory": "cpp",
+			"streambuf": "cpp",
+			"string": "cpp",
+			"iostream": "cpp",
+			"algorithm": "cpp"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+/Users/longqi/Desktop/project/cmake-demo/Demo3.3/build/CMakeFiles/rebuild_cache.dir
+/Users/longqi/Desktop/project/cmake-demo/Demo3.3/build/CMakeFiles/edit_cache.dir
+/Users/longqi/Desktop/project/cmake-demo/Demo3.3/build/CMakeFiles/Demo.dir
+/Users/longqi/Desktop/project/cmake-demo/Demo3.3/build/math/CMakeFiles/rebuild_cache.dir
+/Users/longqi/Desktop/project/cmake-demo/Demo3.3/build/math/CMakeFiles/edit_cache.dir
+/Users/longqi/Desktop/project/cmake-demo/Demo3.3/build/math/CMakeFiles/MathFunctions.dir

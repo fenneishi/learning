@@ -1,0 +1,9 @@
+target distance:9
+step length:99
+0:(x,y) = (0,0)
+1:(x,y) = (-91.5896,37.5812)
+finish the target!
+steps:1
+result(RECT):(x,y) = (-91.5896,37.5812)
+result(POL):(m,a) = (99,2.75222)
+average distance:99

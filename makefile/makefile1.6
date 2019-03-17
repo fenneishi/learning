@@ -1,0 +1,29 @@
+executable := complicated
+
+source := $(wildcard *.c)
+
+object:= $(source:.c=.o)
+
+deps := $(sources:.c=.d)
+
+CC:= gcc
+
+RM:= rm 
+
+$(executable):$(object)
+	$(CC) -o $@  $^
+
+$(object):%.o:%.c
+	$(CC) -o $@ -c $<
+
+
+
+.PHONY:clean
+clean:
+	$(RM) $(executable) $(object)
+
+sinclude $(deps) 
+
+$(deps):%.d:%.c
+	echo "deps denpends"
+	$(CC) -MM $< > $@

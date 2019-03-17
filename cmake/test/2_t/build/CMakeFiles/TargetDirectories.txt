@@ -1,0 +1,13 @@
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/CMakeFiles/install/local.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/CMakeFiles/install/strip.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/CMakeFiles/install.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/CMakeFiles/list_install_components.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/CMakeFiles/rebuild_cache.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/CMakeFiles/edit_cache.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/bin/CMakeFiles/install/local.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/bin/CMakeFiles/rebuild_cache.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/bin/CMakeFiles/edit_cache.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/bin/CMakeFiles/install/strip.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/bin/CMakeFiles/install.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/bin/CMakeFiles/list_install_components.dir
+/Users/longqi/Desktop/code/learn/11_linux/cmake/2_t/build/bin/CMakeFiles/hello.dir

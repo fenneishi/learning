@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "memory": "c",
+        "__bit_reference": "c",
+        "bitset": "c",
+        "chrono": "c",
+        "limits": "c",
+        "ratio": "c",
+        "algorithm": "c",
+        "stdio.h": "c",
+        "ios": "c",
+        "__tuple": "c",
+        "__locale": "c",
+        "stdlib.h": "c",
+        "__split_buffer": "c",
+        "initializer_list": "c",
+        "iterator": "c",
+        "string": "c",
+        "string_view": "c",
+        "vector": "c",
+        "typeinfo": "c",
+        "utility": "c",
+        "__functional_03": "c",
+        "functional": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

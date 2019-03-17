@@ -1,0 +1,5 @@
+/Users/longqi/Desktop/code/learn/11_linux/cmake/3_t/install/lib/libhello.1.2.dylib
+/Users/longqi/Desktop/code/learn/11_linux/cmake/3_t/install/lib/libhello.1.dylib
+/Users/longqi/Desktop/code/learn/11_linux/cmake/3_t/install/lib/libhello.dylib
+/Users/longqi/Desktop/code/learn/11_linux/cmake/3_t/install/lib/libhello.a
+/Users/longqi/Desktop/code/learn/11_linux/cmake/3_t/install/include/hello/hello.h

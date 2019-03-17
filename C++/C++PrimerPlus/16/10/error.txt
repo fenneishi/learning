@@ -1,0 +1,866 @@
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:640:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4458:9: error: no viable overloaded '='
+    __x = _VSTD::move(__y);
+    ~~~ ^ ~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4016:17: note: in instantiation of function template specialization 'std::__1::swap<const std::__1::shared_ptr<Review> >' requested here
+                swap(*__first, *__last);
+                ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4201:5: note: in instantiation of function template specialization 'std::__1::__sort<SortBook &, const std::__1::shared_ptr<Review> *>' requested here
+    __sort<_Comp_ref>(__first, __last, __comp);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4235:12: note: in instantiation of function template specialization 'std::__1::sort<const std::__1::shared_ptr<Review> *, SortBook &>' requested here
+    _VSTD::sort<_Tp*, _Comp_ref>(__first.base(), __last.base(), __comp);
+           ^
+main.1.cpp:116:13: note: in instantiation of function template specialization 'std::__1::sort<const std::__1::shared_ptr<Review>, SortBook>' requested here
+            sort(books.begin(), books.end(),SortBook("title"));
+            ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3740:17: note: candidate function not viable: 'this' argument has type 'const std::__1::shared_ptr<Review>', but method is not marked const
+    shared_ptr& operator=(const shared_ptr& __r) _NOEXCEPT;
+                ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3748:9: note: candidate function not viable: 'this' argument has type 'const std::__1::shared_ptr<Review>', but method is not marked const
+        operator=(const shared_ptr<_Yp>& __r) _NOEXCEPT;
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3781:9: note: candidate template ignored: could not match 'auto_ptr' against 'shared_ptr'
+        operator=(auto_ptr<_Yp> __r);
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3796:9: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+        operator=(unique_ptr<_Yp, _Dp> __r);
+        ^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:640:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4459:9: error: no viable overloaded '='
+    __y = _VSTD::move(__t);
+    ~~~ ^ ~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3740:17: note: candidate function not viable: 'this' argument has type 'const std::__1::shared_ptr<Review>', but method is not marked const
+    shared_ptr& operator=(const shared_ptr& __r) _NOEXCEPT;
+                ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3748:9: note: candidate function not viable: 'this' argument has type 'const std::__1::shared_ptr<Review>', but method is not marked const
+        operator=(const shared_ptr<_Yp>& __r) _NOEXCEPT;
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3781:9: note: candidate template ignored: could not match 'auto_ptr' against 'shared_ptr'
+        operator=(auto_ptr<_Yp> __r);
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3796:9: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+        operator=(unique_ptr<_Yp, _Dp> __r);
+        ^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3770:9: error: no matching function for call to 'swap'
+        swap(*__y, *__z);          // x <= z && y < z
+        ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4019:20: note: in instantiation of function template specialization 'std::__1::__sort3<SortBook &, const std::__1::shared_ptr<Review> *>' requested here
+            _VSTD::__sort3<_Compare>(__first, __first+1, --__last, __comp);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4201:5: note: in instantiation of function template specialization 'std::__1::__sort<SortBook &, const std::__1::shared_ptr<Review> *>' requested here
+    __sort<_Comp_ref>(__first, __last, __comp);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4235:12: note: in instantiation of function template specialization 'std::__1::sort<const std::__1::shared_ptr<Review> *, SortBook &>' requested here
+    _VSTD::sort<_Tp*, _Comp_ref>(__first.base(), __last.base(), __comp);
+           ^
+main.1.cpp:116:13: note: in instantiation of function template specialization 'std::__1::sort<const std::__1::shared_ptr<Review>, SortBook>' requested here
+            sort(books.begin(), books.end(),SortBook("title"));
+            ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3774:13: error: no matching function for call to 'swap'
+            swap(*__x, *__y);      // x < y && y <= z
+            ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3781:9: error: no matching function for call to 'swap'
+        swap(*__x, *__z);          // x < y && y < z
+        ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3785:5: error: no matching function for call to 'swap'
+    swap(*__x, *__y);              // x > y && y <= z
+    ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3789:9: error: no matching function for call to 'swap'
+        swap(*__y, *__z);          // x <= y && y < z
+        ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3802:20: error: no matching function for call to '__sort3'
+    unsigned __r = __sort3<_Compare>(__x1, __x2, __x3, __c);
+                   ^~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4022:20: note: in instantiation of function template specialization 'std::__1::__sort4<SortBook &, const std::__1::shared_ptr<Review> *>' requested here
+            _VSTD::__sort4<_Compare>(__first, __first+1, __first+2, --__last, __comp);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4201:5: note: in instantiation of function template specialization 'std::__1::__sort<SortBook &, const std::__1::shared_ptr<Review> *>' requested here
+    __sort<_Comp_ref>(__first, __last, __comp);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4235:12: note: in instantiation of function template specialization 'std::__1::sort<const std::__1::shared_ptr<Review> *, SortBook &>' requested here
+    _VSTD::sort<_Tp*, _Comp_ref>(__first.base(), __last.base(), __comp);
+           ^
+main.1.cpp:116:13: note: in instantiation of function template specialization 'std::__1::sort<const std::__1::shared_ptr<Review>, SortBook>' requested here
+            sort(books.begin(), books.end(),SortBook("title"));
+            ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3762:1: note: candidate template ignored: substitution failure [with _Compare = SortBook &, _ForwardIterator = const std::__1::shared_ptr<Review> *]
+__sort3(_ForwardIterator __x, _ForwardIterator __y, _ForwardIterator __z, _Compare __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3805:9: error: no matching function for call to 'swap'
+        swap(*__x3, *__x4);
+        ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3809:13: error: no matching function for call to 'swap'
+            swap(*__x2, *__x3);
+            ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3813:17: error: no matching function for call to 'swap'
+                swap(*__x1, *__x2);
+                ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3828:20: error: no matching function for call to '__sort4'
+    unsigned __r = __sort4<_Compare>(__x1, __x2, __x3, __x4, __c);
+                   ^~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4025:20: note: in instantiation of function template specialization 'std::__1::__sort5<SortBook &, const std::__1::shared_ptr<Review> *>' requested here
+            _VSTD::__sort5<_Compare>(__first, __first+1, __first+2, __first+3, --__last, __comp);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4201:5: note: in instantiation of function template specialization 'std::__1::__sort<SortBook &, const std::__1::shared_ptr<Review> *>' requested here
+    __sort<_Comp_ref>(__first, __last, __comp);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4235:12: note: in instantiation of function template specialization 'std::__1::sort<const std::__1::shared_ptr<Review> *, SortBook &>' requested here
+    _VSTD::sort<_Tp*, _Comp_ref>(__first.base(), __last.base(), __comp);
+           ^
+main.1.cpp:116:13: note: in instantiation of function template specialization 'std::__1::sort<const std::__1::shared_ptr<Review>, SortBook>' requested here
+            sort(books.begin(), books.end(),SortBook("title"));
+            ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3799:1: note: candidate template ignored: substitution failure [with _Compare = SortBook &, _ForwardIterator = const std::__1::shared_ptr<Review> *]
+__sort4(_ForwardIterator __x1, _ForwardIterator __x2, _ForwardIterator __x3,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3831:9: error: no matching function for call to 'swap'
+        swap(*__x4, *__x5);
+        ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3835:13: error: no matching function for call to 'swap'
+            swap(*__x3, *__x4);
+            ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3839:17: error: no matching function for call to 'swap'
+                swap(*__x2, *__x3);
+                ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3843:21: error: no matching function for call to 'swap'
+                    swap(*__x1, *__x2);
+                    ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:4454:1: note: candidate template ignored: substitution failure [with _Tp = const std::__1::shared_ptr<Review>]
+swap(_Tp& __x, _Tp& __y) _NOEXCEPT_(is_nothrow_move_constructible<_Tp>::value &&
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:268:1: note: candidate template ignored: could not match '_Tp [_Np]' against 'const std::__1::shared_ptr<Review>'
+swap(_Tp (&__a)[_Np], _Tp (&__b)[_Np]) _NOEXCEPT_(__is_nothrow_swappable<_Tp>::value)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:604:1: note: candidate template ignored: could not match 'pair' against 'shared_ptr'
+swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2211:6: note: candidate template ignored: could not match '__compressed_pair' against 'shared_ptr'
+void swap(__compressed_pair<_T1, _T2>& __x, __compressed_pair<_T1, _T2>& __y)
+     ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:2859:1: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+swap(unique_ptr<_Tp, _Dp>& __x, unique_ptr<_Tp, _Dp>& __y) _NOEXCEPT {__x.swap(__y);}
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:4831:1: note: candidate template ignored: deduced type 'shared_ptr<Review> &' of 1st parameter does not match adjusted type 'const std::__1::shared_ptr<Review>' of argument [with _Tp = Review]
+swap(shared_ptr<_Tp>& __x, shared_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:5130:1: note: candidate template ignored: could not match 'weak_ptr' against 'shared_ptr'
+swap(weak_ptr<_Tp>& __x, weak_ptr<_Tp>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3855:1: note: candidate template ignored: could not match 'basic_string' against 'shared_ptr'
+swap(basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:277:1: note: candidate template ignored: could not match 'unique_lock' against 'shared_ptr'
+swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:1573:1: note: candidate template ignored: could not match 'function' against 'shared_ptr'
+swap(function<_Fp>& __x, function<_Fp>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:86:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:96:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, __bit_reference<_Dp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:106:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(__bit_reference<_Cp> __x, bool& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:116:1: note: candidate template ignored: could not match '__bit_reference' against 'shared_ptr'
+swap(bool& __x, __bit_reference<_Cp> __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:627:1: note: candidate template ignored: could not match '__split_buffer' against 'shared_ptr'
+swap(__split_buffer<_Tp, _Allocator>& __x, __split_buffer<_Tp, _Allocator>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:3347:1: note: candidate template ignored: could not match 'vector' against 'shared_ptr'
+swap(vector<_Tp, _Allocator>& __x, vector<_Tp, _Allocator>& __y)
+^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3893:5: error: no matching function for call to '__sort3'
+    __sort3<_Compare>(__first, __first+1, __j, __comp);
+    ^~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4030:20: note: in instantiation of function template specialization 'std::__1::__insertion_sort_3<SortBook &, const std::__1::shared_ptr<Review> *>' requested here
+            _VSTD::__insertion_sort_3<_Compare>(__first, __last, __comp);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4201:5: note: in instantiation of function template specialization 'std::__1::__sort<SortBook &, const std::__1::shared_ptr<Review> *>' requested here
+    __sort<_Comp_ref>(__first, __last, __comp);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:4235:12: note: in instantiation of function template specialization 'std::__1::sort<const std::__1::shared_ptr<Review> *, SortBook &>' requested here
+    _VSTD::sort<_Tp*, _Comp_ref>(__first.base(), __last.base(), __comp);
+           ^
+main.1.cpp:116:13: note: in instantiation of function template specialization 'std::__1::sort<const std::__1::shared_ptr<Review>, SortBook>' requested here
+            sort(books.begin(), books.end(),SortBook("title"));
+            ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3762:1: note: candidate template ignored: substitution failure [with _Compare = SortBook &, _ForwardIterator = const std::__1::shared_ptr<Review> *]
+__sort3(_ForwardIterator __x, _ForwardIterator __y, _ForwardIterator __z, _Compare __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3903:22: error: no viable overloaded '='
+                *__j = _VSTD::move(*__k);
+                ~~~~ ^ ~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3740:17: note: candidate function not viable: 'this' argument has type 'const std::__1::shared_ptr<Review>', but method is not marked const
+    shared_ptr& operator=(const shared_ptr& __r) _NOEXCEPT;
+                ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3748:9: note: candidate function not viable: 'this' argument has type 'const std::__1::shared_ptr<Review>', but method is not marked const
+        operator=(const shared_ptr<_Yp>& __r) _NOEXCEPT;
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3781:9: note: candidate template ignored: could not match 'auto_ptr' against 'shared_ptr'
+        operator=(auto_ptr<_Yp> __r);
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3796:9: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+        operator=(unique_ptr<_Yp, _Dp> __r);
+        ^
+In file included from main.1.cpp:2:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:38:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:216:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:15:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string:470:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:169:
+In file included from /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:56:
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:3906:18: error: no viable overloaded '='
+            *__j = _VSTD::move(__t);
+            ~~~~ ^ ~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3740:17: note: candidate function not viable: 'this' argument has type 'const std::__1::shared_ptr<Review>', but method is not marked const
+    shared_ptr& operator=(const shared_ptr& __r) _NOEXCEPT;
+                ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3748:9: note: candidate function not viable: 'this' argument has type 'const std::__1::shared_ptr<Review>', but method is not marked const
+        operator=(const shared_ptr<_Yp>& __r) _NOEXCEPT;
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3781:9: note: candidate template ignored: could not match 'auto_ptr' against 'shared_ptr'
+        operator=(auto_ptr<_Yp> __r);
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:3796:9: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+        operator=(unique_ptr<_Yp, _Dp> __r);
+        ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.

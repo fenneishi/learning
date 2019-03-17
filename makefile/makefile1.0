@@ -1,0 +1,22 @@
+executable := complicated
+
+source := main.c complicated.c
+
+object:= $(source:.c=.o)
+
+CC:= gcc
+
+$(executable):$(object)
+	$(CC) -o $@  $^
+
+main.o:main.c
+	$(CC) -o $@ -c $<
+
+complicated.o:complicated.c
+	$(CC) -o $@ -c $<
+
+
+.PHONY:clean
+clean:
+	rm *.o
+	rm complicated
